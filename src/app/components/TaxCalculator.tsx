@@ -22,7 +22,7 @@ import { useState } from "react";
 export default function TaxCalculator() {
   const [year, setYear] = useState<YEARS>("2024-25");
   const [income, setIncome] = useState(0);
-  const [result, setResult] = useState("0.00");
+  const [result, setResult] = useState("$0.00");
 
   const handleSelect = (event: SelectChangeEvent) => {
     setYear(event.target.value as YEARS);
