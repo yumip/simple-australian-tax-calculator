@@ -12,8 +12,9 @@ export default function Home() {
           </Typography>
           <Typography variant="body1">
             Use this tool to estimate your income tax based on the latest tax
-            brackets and rates for Australian residents. Simply enter your
-            income details and let the calculator do the rest!
+            brackets and rates for Australian residents (full year). Simply
+            enter your total taxable income for the full income year and let the
+            calculator do the rest!
           </Typography>
           <TaxCalculator />
         </Container>
