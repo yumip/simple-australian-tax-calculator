@@ -84,7 +84,7 @@ export default function TaxCalculator() {
 
       <Divider sx={{ my: 4 }}>
         {" "}
-        <Typography variant="h5">Result</Typography>{" "}
+        <Typography variant="h6">Result</Typography>{" "}
       </Divider>
 
       <Box textAlign="center">

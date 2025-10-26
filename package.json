@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
+    "tsc": "tsc --noEmit",
     "test": "jest",
     "test:watch": "jest --watch",
     "format:write": "prettier --write \"**/*.{css,js,json,jsx,ts,tsx}\"",
