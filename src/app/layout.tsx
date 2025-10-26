@@ -4,7 +4,7 @@ import { Roboto } from "next/font/google";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../theme";
 
-export const roboto = Roboto({
+const roboto = Roboto({
   subsets: ["latin"],
   variable: "--font-roboto",
   weight: ["300", "400", "500", "700"],
