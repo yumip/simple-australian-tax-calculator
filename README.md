@@ -12,7 +12,7 @@ This repository includes
 - Hooks Husky+lint-staged
 
 ## Project structure
-
+```
 simple-australian-calculator/
 ├── eslint.config.mjs
 ├── jest.config.ts
@@ -40,7 +40,7 @@ simple-australian-calculator/
 │ └── theme.ts
 ├── tsconfig.json
 └── tsconfig.tsbuildinfo
-
+```
 ## Getting Started
 
 ### install
